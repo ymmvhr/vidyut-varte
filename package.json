@@ -1,0 +1,25 @@
+{
+  "name": "vidyut-varte",
+  "version": "1.0.0",
+  "description": "AI-powered Karnataka Electricity News App",
+  "main": "VidyutVarte.js",
+  "scripts": {
+    "start": "node VidyutVarte.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "karnataka",
+    "electricity",
+    "news",
+    "ai",
+    "gemini"
+  ],
+  "author": "Tippanna Manglure",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5"
+  }
+}
